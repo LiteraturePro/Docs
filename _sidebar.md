@@ -1,7 +1,6 @@
 <!-- docs/_sidebar.md -->
 
-# 目录
-
+* [目录](readme.md)
 * 首页
 
   * [快速开始](quickstart.md)
@@ -30,4 +29,3 @@
 
 * [资源管理](dev.md)
 * [更新日志](log.md)
-
