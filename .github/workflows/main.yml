@@ -1,12 +1,11 @@
-name: Upload to COS
+name: Upload to COS
 
-on: [push]
+on: [push]
 
-jobs:
-
-  build:
-    runs-on: ubuntu-latest
-    steps:
+jobs: 
+ build:
+  runs-on: ubuntu-latest
+  steps:
     - uses: actions/checkout@v1
     - name: Install coscmd
       run: sudo pip install coscmd
